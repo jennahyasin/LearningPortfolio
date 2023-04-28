@@ -256,3 +256,25 @@ background-color:white;
     font-size: 18px;
   }
 
+.footer{
+    position: bottom;
+}
+
+  .footer-text{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color: #153738;
+  }
+
+  
+  .github-icon, .linkedin-icon, .gmail-icon {
+    width: 75px;
+    height: 75px;
+    margin-top: 10px;
+  }
+  .icon-links{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+  }
