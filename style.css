@@ -24,8 +24,14 @@ body{
 .navigation-bar{
     display: flex;
     justify-content: center;
-    background-color: #5f9ea0;
+    background-color: #2e7e81;
     border: 2px dotted white;
+    /* position: sticky;
+    top: 0; */
+}
+.top{
+    position: sticky;
+    top: 0;
 }
 
 .menu{
@@ -81,14 +87,15 @@ background-color:white;
 
 .top-left{
     display: flex;
-    background-color: #5f9ea0;
+    background-color: #2e7e81;
     float: left;
     width: 25%;
     height: 100px;
+
 }
 .top-right{
     display: flex;
-    background-color: #5f9ea0 ;
+    background-color: #2e7e81 ;
     width: 75%;
     height: 100px;
     float: right;
@@ -277,4 +284,23 @@ background-color:white;
     display:flex;
     align-items: center;
     justify-content: center;
+  }
+
+  #course-intro{
+    color: #0a3b30;
+    padding: 30px;
+    padding-top: 30%;
+    background-color: white;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  #paragraph{
+    padding-top: 25%;
+  }
+  .class-name{
+    background-color: rgb(236, 238, 214);
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
   }
